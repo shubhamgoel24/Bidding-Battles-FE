@@ -1,0 +1,57 @@
+.show-requests {
+    margin-top: 1rem;
+
+    .field-heading {
+        font-weight: bold;
+    }
+
+    .item-row {
+        border: 1px solid $contrast-color;
+        background-color: $card-color;
+        box-shadow: $box-shadow-color 0px 5px 15px;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    }
+
+    .col-right {
+        border-left: 1px solid $contrast-color;
+        padding-left: 1.5rem;
+        position: relative;
+    }
+
+    .bottom-box {
+        border-top: 1px solid $contrast-color;
+    }
+}
+
+.bid-image {
+    width: auto;
+    height: 5rem;
+}
+
+.view-more-button {
+    font-size: 1.1rem;
+    border: none;
+    width: fit-content;
+}
+
+.btn-float {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.secondary-button {
+    font-size: 1rem;
+    margin: 0.5rem 0.2rem 0.5rem 0.2rem;
+    background-color: $background-color;
+    border: none;
+    width: fit-content;
+    color: $contrast-color;
+    border-bottom: 1px solid $contrast-color;
+}
+
+.description-field {
+    white-space: pre-line;
+}

@@ -1,0 +1,24 @@
+.navbar-light {
+    padding: 0.1rem 1rem 0.1rem 1rem;
+    font-size: 1rem;
+    background-color: $nav-background-color;
+
+    .main-link {
+        font-size: 1.5rem;
+    }
+
+    .link {
+        text-decoration: none;
+        width: fit-content;
+
+        &.active{
+            text-decoration: underline;
+            text-underline-offset: 5px;
+        }
+    }
+
+    .btn {
+        width: fit-content;
+        margin: 0.5rem;
+    }
+}

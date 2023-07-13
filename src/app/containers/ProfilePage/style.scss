@@ -1,0 +1,19 @@
+.profile-row {
+    margin-top: 1rem;
+    border: 1px solid $contrast-color;
+    background-color: $card-color;
+    box-shadow: $box-shadow-color 0px 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+
+    .field-heading {
+        font-weight: bold;
+    }
+
+    .col-right {
+        border-left: 1px solid $contrast-color;
+        padding-left: 1.5rem;
+        position: relative;
+    }
+}

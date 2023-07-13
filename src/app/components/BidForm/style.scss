@@ -1,0 +1,43 @@
+.bid-form {
+    background-color: $background-color;
+    border-radius: 5px;
+    box-shadow: $box-shadow-color 0px 5px 15px;
+
+    h3 {
+        padding: 1rem 0 0.5rem 0;
+    }
+
+    .primary-button {
+        font-size: 1.1rem;
+        margin: 0.5rem 0.2rem 0.5rem 0.2rem;
+        border: none;
+        width: fit-content;
+    }
+
+    .secondary-button {
+        font-size: 1rem;
+        margin: 0.5rem 0.2rem 0.5rem 0.2rem;
+        background-color: $background-color;
+        border: none;
+        width: fit-content;
+        color: $contrast-color;
+        border-bottom: 1px solid $contrast-color;
+    }
+
+    .bs-icon {
+        font-size: 2rem;
+        padding-right: 0;
+    }
+
+    .form-row {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .form-outline {
+        padding-left: 0;
+    }
+
+    .form-label {
+        color: $contrast-color;
+    }
+}

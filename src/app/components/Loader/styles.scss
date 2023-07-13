@@ -1,0 +1,11 @@
+.loader-container {
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: -0.2rem;
+
+    .spinner-row {
+        height: 100vh;
+    }
+}

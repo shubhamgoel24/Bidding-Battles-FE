@@ -38,3 +38,6 @@ This is a demand driven marketplace built using React for the frontend, flask fo
 
 ### To Start Server:
 `npm start`
+
+# Project Architecture
+![Untitled-2023-07-13-1206](https://github.com/shubhamgoel24/Bidding-Battles-FE/assets/67507184/c054ed0f-096d-490c-a736-e2cb1d30ac8b)
